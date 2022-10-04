@@ -3,7 +3,7 @@
     height: 850px;
     position: relative;
     &__map {
-        background: url(../../image/Map.jpg) 0 0/100% 100% no-repeat;   
+        background: url(./../image/Map.jpg) 0 0/100% 100% no-repeat;   
         height: 700px;
         width: 100%;
     }
@@ -58,7 +58,7 @@
     display: block;
     width: 106px;
     height: 106px;
-    background-image: url(../../icons/Pin.svg);
+    background-image: url(./../icons/Pin.svg);
     position: absolute;
     left: 41%;
     top: 17%;

@@ -113,7 +113,7 @@
 
 .slider_news .slick-arrow.slick-prev{
     left: -80px;
-    background: url('../../icons/left.svg') 0 0/auto 100% no-repeat;
+    background: url('./../icons/left.svg') 0 0/auto 100% no-repeat;
     &:before {
         content: '';
         width: 40px;
@@ -130,7 +130,7 @@
 
 .slider_news .slick-arrow.slick-next {
     right: -80px;
-    background: url('../../icons/right.svg') 0 0/auto 100% no-repeat;
+    background: url('./../icons/right.svg') 0 0/auto 100% no-repeat;
     &:after {
         content: '';
         width: 40px;
