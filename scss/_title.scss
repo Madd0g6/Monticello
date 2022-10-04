@@ -1,0 +1,31 @@
+.title {
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: $fz-primary;
+    line-height: 54px;
+    text-align: center;
+    color: $primary;
+    &_possiton {
+        text-align: start;
+        margin-bottom: 20px;
+    }
+    &_small {
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: $fz-third;
+        line-height: 27px;
+        color: $primary;
+    }
+    &_news {
+        color: $secondary;
+        margin-bottom: 90px;
+    }
+    &_card {
+        font-family: $font-primary;
+        font-weight: 700;
+        font-size: $fz-third;
+        line-height: 27px;
+        color: $primary;
+        margin: 30px 20px 15px 20px;
+    }
+}

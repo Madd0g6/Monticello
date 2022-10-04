@@ -1,0 +1,36 @@
+.news {
+    background: url(../../image/news-bg.png) center center/cover no-repeat;
+    min-height: 978px;
+    padding: 120px 0;
+    margin: 0 auto;
+    &__block {
+        display: flex;
+        margin: 40px 0 30px 20px;
+    }
+    &__info {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    &__name {
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: $fz-secondary;
+        line-height: 22px;
+        color: $primary;
+        margin: 7px 0;
+
+    }
+    &__born {
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #55B7FF;
+    }
+    &__hero {
+        border-radius: 50%;
+    }
+    &__img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,103 @@
+.contact {
+    margin: 0 auto;
+    height: 850px;
+    position: relative;
+    &__map {
+        background: url(../../image/Map.jpg) 0 0/100% 100% no-repeat;   
+        height: 700px;
+        width: 100%;
+    }
+    &__wrapper {
+        width: 770px;
+        position: absolute;
+        height: 450px;
+        background-color: $secondary;
+        left: 26%;
+        top: 47%;
+        z-index: 3;
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        margin: 42px 60px 70px;
+        &-descr {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 30px;
+
+        }
+        &-email {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    &_email {
+        width: 310px;
+        height: 41px;
+        margin: 26px 0 30px;
+        border: none;
+        border-bottom: 1px solid $primary;
+        outline: none;
+    }
+    &_name {
+        width: 310px;
+        height: 41px;
+        border: none;
+        border-bottom: 1px solid $primary;
+        outline: none;
+    }
+}
+
+.contact:before {
+    content: '';
+    display: block;
+    width: 106px;
+    height: 106px;
+    background-image: url(../../icons/Pin.svg);
+    position: absolute;
+    left: 41%;
+    top: 17%;
+}
+
+.location_icon {
+    &:before {
+        content: '\f3c5';
+        display: inline-block;
+        margin-right: 9px;
+        font-family: 'FontAwesome';
+        color: #7E5AFF;
+        font-weight: 400;
+    }
+}
+
+.phone_icon:before {
+    content: '\f095';
+    display: inline-block;
+    margin-right: 9px;
+    font-family: 'FontAwesome';
+    color: #7E5AFF;
+    font-weight: 400;
+}
+
+.email_icon:before {
+    content: '\f01c';
+    display: inline-block;
+    margin-right: 9px;
+    font-family: 'FontAwesome';
+    color: #7E5AFF;
+    font-weight: 400;
+}
+
+.time_icon:before {
+    content: '\f017';
+    display: inline-block;
+    margin-right: 9px;
+    font-family: 'FontAwesome';
+    color: #7E5AFF;
+    font-weight: 400;
+}

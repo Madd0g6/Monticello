@@ -1,0 +1,33 @@
+.project1 {
+    padding: 100px 0 120px 0;
+    height: 100%;
+    max-width: 1600px;
+    width: 100%;
+    overflow:hidden;
+    margin: 0 auto;
+    &__wrapper{
+        width: 1385px;
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__box {
+        position: relative;
+        left: 0;
+        width: 585px;
+        height: 470px;
+        background: #55B7FF;
+    }
+    &__image {
+        position: absolute;
+        left: 215px;
+        top: 57px;
+    }
+    &__subscribe {
+        width: 470px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+}

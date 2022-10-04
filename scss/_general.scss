@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    line-height: 0;
+}
+
+.descr {
+    font-family: $font-secondary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $fz-secondary;
+    line-height: 30px;
+    color: $primary;
+    &_card {
+        line-height: 25px;
+        margin: 0 20px;
+    }
+    &_location {
+        font-family: $font-secondary;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: $secondary-black;
+        &:before {
+            content: '';
+            display: inline-block;
+            width: 9px;
+            height: 14px;
+            background-image: url(../icons/location.svg);
+            margin-right: 10px;
+
+        }
+    }
+    &_form {
+        line-height: 25px;
+         color: $secondary-black;
+    }
+    &_logo {
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: $secondary;
+        margin-top: 40px;
+    }
+}
+.svg_hover:hover {
+    fill: rgb(5, 86, 173);
+}
+
+.line {
+    width: 100px;
+    border-top: 1px solid #2C4058;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    &_news {
+        border-top: 1px solid $secondary;
+    }
+    &_form {
+        margin:60px auto 30px;
+    }
+}
+
+.hamburger {
+    display: none;
+}

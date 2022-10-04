@@ -1,0 +1,19 @@
+.footer {
+    height: 549px;
+    margin: 0 auto;
+    background: url(../../image/footer-bg.png) 0 0/100% 100% no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+    }
+    &__navigation-social {
+        display: flex;
+        justify-content: space-between;
+        width: 160px;
+    }
+}

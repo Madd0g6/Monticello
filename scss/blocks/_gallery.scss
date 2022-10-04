@@ -1,0 +1,62 @@
+.gallery {
+    padding: 150px 0;
+    min-height: 1022px;
+    margin: 0 auto;
+    &__wrapper {
+        height: 438px;
+        width: 100%;
+        max-width: 1170px;
+        margin: 90px auto 60px;
+        display: grid;
+        gap: 10px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "first first second fourth"
+        "first first third fifth";
+        position: relative;
+    }
+    &__img-first {
+        grid-area: first;
+        height: 100%;
+        width: 100%;
+        background: url(../../image/gallery-photo-1.jpg) 0 0/100% 100% no-repeat;
+    }
+    &__img-second {
+        grid-area: second;
+        height: 100%;
+        width: 100%;
+        background: url(../../image/gallery-photo-2.jpg) 0 0/100% 100% no-repeat;
+    }
+    &__img-third {
+        grid-area: third;
+        width: 100%;
+        height: 100%;
+        background: url(../../image/gallery-photo-3.jpg) 0 0/100% 100% no-repeat;
+    }
+    &__img-fourth {
+        grid-area: fourth;
+        width: 100%;
+        height: 100%;
+        background: url(../../image/gallery-photo-4.jpg) 0 0/100% 100% no-repeat;
+    }
+    &__img-fifth {
+        grid-area: fifth;
+        width: 100%;
+        height: 100%;
+        background: url(../../image/gallery-photo-5.jpg) 0 0/100% 100% no-repeat;
+    }
+
+}
+.gallery__img-first:before {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url(../../icons/bi_zoom-in.svg) no-repeat;
+    position: absolute;
+    z-index: 10;
+    left: 22%;
+    bottom: 42%;
+    cursor: pointer;
+}

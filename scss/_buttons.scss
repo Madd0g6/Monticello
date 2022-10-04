@@ -1,0 +1,29 @@
+.btn {
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $secondary-black;
+    width: 190px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid $primary;
+    margin: 40px 0 60px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    &:hover {
+        background-color: #12CBC4;
+    }
+    &_gallery {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_form {
+        width: 140px;
+        margin: 0;
+        margin-left: 170px;
+    }
+}
