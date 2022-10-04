@@ -50,7 +50,9 @@ a {
     }
 }
 .svg_hover:hover {
-    fill: rgb(5, 86, 173);
+    fill: rgb(170, 66, 245);
+    transform: scale(1.2);
+    transition: all 0.5s ease-out;
 }
 
 .line {

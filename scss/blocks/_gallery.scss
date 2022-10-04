@@ -21,42 +21,50 @@
         height: 100%;
         width: 100%;
         background: url(./../image/gallery-photo-1.jpg) 0 0/100% 100% no-repeat;
+        &:hover {
+            transform: scale(1.3);
+            cursor: zoom-in;
+        }
     }
     &__img-second {
         grid-area: second;
         height: 100%;
         width: 100%;
         background: url(./../image/gallery-photo-2.jpg) 0 0/100% 100% no-repeat;
+        &:hover {
+            transform: scale(1.3);
+            cursor: zoom-in;
+        }
     }
     &__img-third {
         grid-area: third;
         width: 100%;
         height: 100%;
         background: url(./../image/gallery-photo-3.jpg) 0 0/100% 100% no-repeat;
+        &:hover {
+            transform: scale(1.3);
+            cursor: zoom-in;
+        }
     }
     &__img-fourth {
         grid-area: fourth;
         width: 100%;
         height: 100%;
         background: url(./../image/gallery-photo-4.jpg) 0 0/100% 100% no-repeat;
+        &:hover {
+            transform: scale(1.3);
+            cursor: zoom-in;
+        }
     }
     &__img-fifth {
         grid-area: fifth;
         width: 100%;
         height: 100%;
         background: url(./../image/gallery-photo-5.jpg) 0 0/100% 100% no-repeat;
+        &:hover {
+            transform: scale(1.2);
+            cursor: zoom-in;
+        }
     }
 
-}
-.gallery__img-first:before {
-    content: '';
-    display: block;
-    width: 70px;
-    height: 70px;
-    background: url(./../icons/bi_zoom-in.svg) no-repeat;
-    position: absolute;
-    z-index: 10;
-    left: 22%;
-    bottom: 42%;
-    cursor: pointer;
 }
